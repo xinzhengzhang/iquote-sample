@@ -1,3 +1,3 @@
 #import <Foundation/Foundation.h>
 
-NSString* foo();
+const NSString* foo();

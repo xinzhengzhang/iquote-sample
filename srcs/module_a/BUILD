@@ -3,6 +3,7 @@ objc_library(
     srcs = [
         "a.m",
         "sub_module_b/sub_b.h",
+        "sub_module_b/sub_b.m",
     ],
     hdrs = [
         "include/a.h",

@@ -1,3 +1,12 @@
 #import <Foundation/Foundation.h>
 
-NSString *module_b_name = @"module_b";
+extern const NSString *module_b_name;
+
+@interface SubModuleB: NSObject
+
+@property (readonly) NSString *str1;
+@property (readwrite) NSString *str2;
+
+- (void)bar;
+
+@end

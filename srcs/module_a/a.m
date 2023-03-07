@@ -2,6 +2,8 @@
 #import "sub_b.h"
 #import "a.h"
 
-NSString* foo() {
+const NSString* foo() {
+    __unused SubModuleB *b = [SubModuleB new];
+    [b bar];
     return module_b_name;
 }
