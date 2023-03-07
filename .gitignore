@@ -1,0 +1,12 @@
+# macos ignore
+.DS_Store
+
+# Xcode
+*.xcodeproj
+# bazel ignore
+bazel-*
+external
+
+# bis ignore
+.bis
+compile_commands.json
